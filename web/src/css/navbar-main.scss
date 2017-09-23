@@ -1,0 +1,68 @@
+.navbar-inverse{
+  background-color: rgb(14, 61, 68)!important;
+  border-bottom: 3px solid black;
+}
+
+
+.navbar-brand{
+  display: block;
+  color: rgb(25, 210, 110)!important;
+}
+
+.navbar-brand .webfarmLogo{
+  border:0px #000000 none;
+  margin-left:-20px;
+  margin-top:-24px;
+}
+
+.navbar-brand .webfarmLogoText{
+    color: rgb(25, 210, 110)!important;
+    background-color: rgb(14, 61, 68)!important;
+    position: absolute;
+    top:14px;
+    left: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 4px;
+    margin-left:-12px;
+    margin-top:-17px;
+    display: block;
+    transition: all 2s ease;
+}
+
+.navbar-brand:hover .webfarmLogoText{
+  display: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+ .navbar-inverse .navbar-nav>.active>a:focus,
+  .navbar-inverse .navbar-nav>.active>a:hover{
+    color: white!important;
+    background-color: grey!important;
+  }
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(180, 204, 208)!important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #daecef !important;
+}
+
+
+.dropdown-menu{
+  background-color: grey!important;
+}
+
+.dropdown-menu>li>a{
+  color: white!important;
+  background-color: grey!important;
+}
+
+.dropdown-menu>li>a:hover{
+  color: white!important;
+  background-color: #49676d!important;
+}

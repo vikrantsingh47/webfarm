@@ -1,0 +1,118 @@
+.myFooter {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.footerTop {
+  position: relative;
+  height: 370px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/footer/footerbg5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.footerTop .footerTopContent {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1, 6, 23, 0.47);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.footerTop .myRow {
+
+}
+
+.footerColumn {
+  padding: 33px 25px 25px;
+}
+
+.footerColumn h4 {
+  color: rgb(200,200,200);
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 7px;
+  background-color: rgba(102, 107, 101, 0.6);
+  border-radius: 25px;
+}
+
+.footerColumn a {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: rgb(200,200,200);
+}
+
+.footerColumn .aboutUs {
+  color: rgb(200,200,200);
+  padding-right: 20px;
+  padding-left: 8px;
+}
+
+.footerColumn .newServices {
+  padding-left: 8px;
+}
+
+.footerColumn .contactUs {
+  color: rgb(200,200,200);
+  padding-top: 7px;
+  padding-left: 8px;
+}
+
+.footerColumn .socialMedia {
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.socialMedia{
+  a img{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+.footerColumn .myTags {
+  padding-left: 8px;
+}
+
+.footerColumn .myTag {
+  background-color: rgba(0,0,0,0.3);
+  color: rgb(200,200,200);
+  margin-right: 5px;
+  margin-bottom: 8px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.footerColumn .myTag:hover {
+  background-color: rgba(78, 119, 163,0.7);
+  color: rgb(230,230,230);
+}
+
+.footerBottom {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(0,0,0);
+}
+
+.footerBottom p {
+  padding-top: 4px;
+}
+
+
+@media(max-width:920px) {
+  .footerColumn1,
+  .footerColumn2,
+  .footerColumn3 {
+    display: none;
+  }
+}

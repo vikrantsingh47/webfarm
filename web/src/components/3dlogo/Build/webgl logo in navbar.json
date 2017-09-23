@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "webgl logo in navbar.data.unityweb",
+"asmCodeUrl": "webgl logo in navbar.asm.code.unityweb",
+"asmMemoryUrl": "webgl logo in navbar.asm.memory.unityweb",
+"asmFrameworkUrl": "webgl logo in navbar.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
