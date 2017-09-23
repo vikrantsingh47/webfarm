@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname,'dist'),
     filename: 'bundle.js',
-    publicPath: '/dist'
+    publicPath: 'dist'
   },
   module: {
     rules: [
@@ -42,14 +42,10 @@ module.exports = {
         })
       },
       {
-        test: /\.(jpg|jpeg|png|svg|html)$/,
+        test: /\.(jpg|jpeg|png|svg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-               name: '[name].[ext]',
-               outputPath: '/asset/'
-            }
+            loader: 'url-loader'
           }
         ]
 
@@ -70,5 +66,9 @@ module.exports = {
     new webpack.ProvidePlugin({
        THREE: "three"
          })
-  ]
+  ],
+  devServer: {
+    port: 8080,
+    historyApiFallback: true
+  }
 };
